@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+@mixin flexbox() {
+    display: flex;
+    justify-content: space-between;
+}
+
+@primary-color: #3abdff;
+@secondary: #fff;
+@tertiary: #2867b1;
+@complete: #e9e9e9;
